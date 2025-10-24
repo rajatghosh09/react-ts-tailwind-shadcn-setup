@@ -14,12 +14,51 @@ A starter project using **Vite**, **React**, **TypeScript**, **Tailwind CSS**, a
 
 ---
 
-## 🧱 Installation & Setup
+## ⚙️ Installation & Setup
 
-### 1. Create project
+### 1. If you want to run a project in PowerShell using these 2 commands
+```bash
+cd file_name
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
+
+### 2. Create project
 
 ```bash
-npm create vite@latest my-app
-# Select: React + TypeScript
-cd my-app
-npm install
+npm create vite@latest
+Select a framework:
+# Select: React
+Select a variant:
+# Select: TypeScript
+Use rolldown-vite (Experimental)?:
+# Select: No
+Install with npm and start now?
+# Select: Yes
+```
+
+### 3. Install Tailwind CSS
+```bash
+npm install -D tailwindcss@3 postcss autoprefixer
+npx tailwindcss init -p
+```
+## 🛠 Update `tailwind.config.js`
+```bash
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
+
+## 🎨 Add Tailwind to `src/index.css`
+```bash
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
