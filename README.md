@@ -30,6 +30,8 @@ Select a framework:
 # Select: React
 Select a variant:
 # Select: TypeScript
+or
+# Select: JavaScript
 Use rolldown-vite (Experimental)?:
 # Select: No
 Install with npm and start now?
