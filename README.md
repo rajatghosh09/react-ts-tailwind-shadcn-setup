@@ -64,3 +64,8 @@ export default {
 @tailwind components;
 @tailwind utilities;
 ```
+
+## 🎨 Install Material UI`
+```bash
+npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
+```
