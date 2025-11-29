@@ -69,3 +69,18 @@ export default {
 ```bash
 npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
 ```
+
+## 🎨 Install Sonnar(Toster(using for sweet alert))
+```bash
+npm i sonner
+```
+
+## 🎨 Install  Axios(using for api fetch)
+```bash
+npm i axios
+```
+
+## 🎨 Install  Axios(using for api fetch)
+```bash
+npm i axios
+```
