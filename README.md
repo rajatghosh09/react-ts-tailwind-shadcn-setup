@@ -70,17 +70,27 @@ export default {
 npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
 ```
 
+## 🎨 Install React-icons`
+```bash
+npm i react-icons
+```
+
 ## 🎨 Install Sonnar(Toster(using for sweet alert))
 ```bash
-npm i sonner
+npm i react-icons
 ```
 
-## 🎨 Install  Axios(using for api fetch)
+## 🎨 Install Axios(using for api fetch)
 ```bash
 npm i axios
 ```
 
-## 🎨 Install  Axios(using for api fetch)
+## 🎨 Install db.json(start custome server)
 ```bash
-npm i axios
+npx json-server db.json
+```
+
+## 🎨 Install React Router Dom
+```bash
+npm i react-router-dom
 ```
