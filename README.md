@@ -65,7 +65,7 @@ export default {
 @tailwind utilities;
 ```
 
-## 🎨 Install Material UI`
+## 🎨 Install Material UI.
 ```bash
 npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
 ```
@@ -75,9 +75,14 @@ npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
 npm i react-icons
 ```
 
+## 🎨 Install Lucide-React-icons`
+```bash
+npm i lucide-react
+```
+
 ## 🎨 Install Sonnar(Toster(using for sweet alert))
 ```bash
-npm i react-icons
+npm i sonner
 ```
 
 ## 🎨 Install Axios(using for api fetch)
