@@ -99,3 +99,8 @@ npx json-server db.json
 ```bash
 npm i react-router-dom
 ```
+
+## 🎨 Install React Hook Form
+```bash
+npm i react-hook-form
+```
