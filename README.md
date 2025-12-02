@@ -104,3 +104,13 @@ npm i react-router-dom
 ```bash
 npm i react-hook-form
 ```
+
+## 🎨 Install yup
+```bash
+npm i yup
+```
+
+## 🎨 Install yup-resolver
+```bash
+npm i @hookform/resolvers
+```
